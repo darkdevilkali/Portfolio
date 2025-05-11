@@ -11,14 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const socialLinks = document.querySelectorAll(".sci a");
 
     const urls = [
-        "https://github.com/darkdevilkali",       // GitHub
-        "https://linkedin.com/in/suryaganthan",  // LinkedIn
-        "https://instagram.com/suryaganthan"     // Instagram
+        "https://github.com/darkdevilkali",       
+        "https://linkedin.com/in/suryaganthan",  
+        "https://instagram.com/suryaganthan"     
     ];
 
     socialLinks.forEach((link, index) => {
         link.addEventListener("click", function (e) {
-            e.preventDefault(); // Prevent default anchor behavior
+            e.preventDefault(); 
             window.open(urls[index], "_blank");
         });
     });
