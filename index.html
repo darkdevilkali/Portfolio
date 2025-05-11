@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suryaganthan</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: slateblue;
+            padding: 5px 20px; /* Adjusted padding for better alignment */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px; /* Set a fixed height */
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 5px 10px; /* Adjusted padding for links */
+        }
+
+        .navbar a.logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        body {
+            margin-top: 50px; /* Match the navbar height */
+        }
+    </style>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio</a>
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section id="home" class="home">
+        <div class="home-info">
+            <h1>Suryaganthan R</h1>
+            <h2>I'm a
+                <span style="--i:0;" data-text="Pen-Tester">Pen-Tester</span>
+                <span style="--i:1;" data-text="Web Developer">Web Developer</span>
+                <span style="--i:2;" data-text="Video Editor">Video Editor</span>
+            </h2>
+            <p>  I'm a passionate Cybersecurity enthusiast and aspiring Red Teamer, currently pursuing my B.Tech in Cybersecurity at Sri Eshwar College of Engineering. With a deep interest in ethical hacking and offensive security, I specialize in penetration testing and vulnerability assessment. I enjoy exploring system flaws, crafting exploits, and staying ahead in the evolving landscape of cyber threats. I'm also actively building my skills in scripting, reverse engineering, and digital forensics to contribute to secure digital futures.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a> 
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="home.png" alt=""> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm Suryaganthan, a passionate Cybersecurity student and aspiring Red Teamer. Currently pursuing B.Tech in Cybersecurity at Sri Eshwar College of Engineering, I specialize in penetration testing and ethical hacking.
+  </p>
+  <p>
+    My areas of interest include:
+  </p>
+  <ul>
+    <li>Penetration Testing (Web & Network)</li>
+    <li>Exploit Development</li>
+    <li>CTFs and Ethical Hacking</li>
+    <li>Web Development & Automation</li>
+  </ul>
+</section>
+
+<section class="services" id="services">
+  <h2>My Services</h2>
+  <div class="service-item">
+    <h3>Penetration Testing</h3>
+    <p>I perform vulnerability assessments and exploit testing for web apps, networks, and systems.</p>
+  </div>
+  <div class="service-item">
+    <h3>Web Development</h3>
+    <p>I create responsive websites with interactive UI, optimized for both functionality and security.</p>
+  </div>
+  <div class="service-item">
+    <h3>Video Editing</h3>
+    <p>Skilled in editing.</p>
+  </div>
+</section>
+
+
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <p>Feel free to reach out for collaboration, freelance projects, or just a tech chat!</p>
+  <ul>
+    <li>Email: mistermanuniq@gmail.com</li>
+  </ul>
+</section>
+
+
+
+</body>
+
+</html>
