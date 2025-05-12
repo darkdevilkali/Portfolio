@@ -25,8 +25,11 @@
         .navbar a {
             color: white;
             text-decoration: none;
+            padding: 10px;
             font-size: 16px;
             padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
         }
 
         .navbar a.logo {
@@ -36,6 +39,37 @@
 
         body {
             margin-top: 50px;
+        }
+
+        .thm {
+            text-align: center;
+            margin: 30px 0;
+            padding: 15px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .thm h2 {
+            font-size: 22px;
+            color: slateblue;
+            margin-bottom: 10px;
+        }
+
+        .thm iframe {
+            width: 100%;
+            max-width: 500px;
+            height: 100px;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .thm p {
+            font-size: 16px;
+            color: #333;
+            text-align: center;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -47,7 +81,7 @@
         <ul>
             <li class="active"><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Service</a></li>
+            <li><a href="#services">Qualities</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -69,7 +103,7 @@
                 <span style="--i:1;" data-text="Web Developer">Web Developer</span>
                 <span style="--i:2;" data-text="Video Editor">Video Editor</span>
             </h2>
-            <p>  I'm a passionate Cybersecurity enthusiast and aspiring Red Teamer, currently pursuing my B.Tech in Cybersecurity at Sri Eshwar College of Engineering. With a deep interest in ethical hacking and offensive security, I specialize in penetration testing and vulnerability assessment. I enjoy exploring system flaws, crafting exploits, and staying ahead in the evolving landscape of cyber threats. I'm also actively building my skills in scripting, reverse engineering, and digital forensics to contribute to secure digital futures.</p>
+            <p>  I'm a passionate Cybersecurity enthusiast and aspiring Red Teamer, currently pursuing my B.E in Cybersecurity at Sri Eshwar College of Engineering. With a deep interest in ethical hacking and offensive security, I specialize in penetration testing and vulnerability assessment. I enjoy exploring system flaws, crafting exploits, and staying ahead in the evolving landscape of cyber threats. I'm also actively building my skills in scripting, reverse engineering, and digital forensics to contribute to secure digital futures.</p>
             <div class="btn-sci">
                 <a href="#" class="btn">Download CV</a>
                 <div class="sci">
@@ -90,7 +124,7 @@
     </section>
 
     <section class="about" id="about">
-  <h2>About Me</h2>
+  <h2>About Me </h2>
   <p>
     I'm Suryaganthan, a passionate Cybersecurity student and aspiring Red Teamer. Currently pursuing B.Tech in Cybersecurity at Sri Eshwar College of Engineering, I specialize in penetration testing and ethical hacking.
   </p>
@@ -105,8 +139,29 @@
   </ul>
 </section>
 
+<section class="thm" id="thm">
+  <h2> My TryHackMe Status</h2>
+  <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2870988" style='border:none;'></iframe>
+  <h2>Enhancing Cybersecurity Skills</h2>
+  <style>
+      .thm h2 {
+          font-size: 22px;
+          color: slateblue;
+          text-align: center;
+      }
+
+    .thm p {
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+        margin-top: 0;
+    }
+  </style>
+  <p>TryHackMe is my go-to platform for hands-on learning in cybersecurity, helping me sharpen my penetration testing and ethical hacking expertise.</p>
+</section>
 <section class="services" id="services">
-  <h2>My Services</h2>
+  <h2>My Qualities</h2>
+  
   <div class="service-item">
     <h3>Penetration Testing</h3>
     <p>I perform vulnerability assessments and exploit testing for web apps, networks, and systems.</p>
@@ -127,6 +182,7 @@
   <p>Feel free to reach out for collaboration, freelance projects, or just a tech chat!</p>
   <ul>
     <li>Email: mistermanuniq@gmail.com</li>
+    <li>Connect via Social Media !!</li>
   </ul>
 </section>
 
