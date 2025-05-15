@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "https://linkedin.com/in/suryaganthan",  
         "https://instagram.com/suryaganthan"     
     ];
+    
 
     socialLinks.forEach((link, index) => {
         link.addEventListener("click", function (e) {
